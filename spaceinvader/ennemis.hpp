@@ -1,0 +1,8 @@
+//
+// Created by Romain on 11/05/2020.
+//
+
+#ifndef SPACEINVADER_ENNEMIS_HPP
+#define SPACEINVADER_ENNEMIS_HPP
+
+#endif //SPACEINVADER_ENNEMIS_HPP
