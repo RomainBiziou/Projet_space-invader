@@ -7,21 +7,20 @@
 
 #include <iostream>
 #include <string>
+
 using std::string;
 
 class Vaisseau_principal {
+
 protected:
-    string nom;
-    int vie;
-    int damage;
+//    string nom;
+    int vaisseau_vie = 5;
+    int vaisseau_degats = 1;
 
 public:
-    Vaisseau_principal(string nom, int vie, int damage);
 
-
-
-
-
+    void recevoirdegats(int nbrdegats);
+    void attaquer(Vaisseau_principal &ennemis);
 
 };
 

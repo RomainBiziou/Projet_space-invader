@@ -1,51 +1,11 @@
-conan install C:/Users/Romain/CLionProjects/spaceinvader -if=C:\Users\Romain\CLionProjects\spaceinvader\cmake-build-release -pr=default
-Configuration:
-[settings]
-arch=x86_64
-arch_build=x86_64
-build_type=Release
-compiler=Visual Studio
-compiler.runtime=MD
-compiler.version=16
-os=Windows
-os_build=Windows
-[options]
-[build_requires]
-[env]
-
-conanfile.txt: Installing package
-Requirements
-    bzip2/1.0.8 from 'conan-center' - Cache
-    freetype/2.10.1 from 'conan-center' - Cache
-    libpng/1.6.37 from 'conan-center' - Cache
-    sfml/2.5.1@bincrafters/stable from 'bincrafters' - Cache
-    stb/20180214@conan/stable from 'conan-center' - Cache
-    zlib/1.2.11 from 'conan-center' - Cache
-Packages
-    bzip2/1.0.8:d16a91eadaaf5829b928b12d2f836ff7680d3df5 - Cache
-    freetype/2.10.1:2eda287fd36b7b010dea069857045000246077e3 - Cache
-    libpng/1.6.37:d140711d95cc16a85766a8fc3a551dfafe84cf63 - Cache
-    sfml/2.5.1@bincrafters/stable:1a65d00cce60848cd990a2487100d0511d61207b - Cache
-    stb/20180214@conan/stable:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Cache
-    zlib/1.2.11:3fb49604f9c2f729b85ba3115852006824e72cab - Cache
-
-Installing (downloading, building) binaries...
-bzip2/1.0.8: Already installed!
-stb/20180214@conan/stable: Already installed!
-zlib/1.2.11: Already installed!
-libpng/1.6.37: Already installed!
-freetype/2.10.1: Already installed!
-sfml/2.5.1@bincrafters/stable: Already installed!
-conanfile.txt: Generator cmake created conanbuildinfo.cmake
-conanfile.txt: Generator txt created conanbuildinfo.txt
-conanfile.txt: Generated conaninfo.txt
-conanfile.txt: Generated graphinfo
-"D:\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - NMake Makefiles" C:\Users\Romain\CLionProjects\spaceinvader
+conan install C:/Users/Romain/CLionProjects/Projet_space-invader -if=C:\Users\Romain\CLionProjects\Projet_space-invader\spaceinvader\cmake-build-release -pr=default
+ERROR: Conanfile not found at C:/Users/Romain/CLionProjects/Projet_space-invader\conanfile.py or C:/Users/Romain/CLionProjects/Projet_space-invader\conanfile.txt
+C:\Users\Romain\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.7223.86\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - NMake Makefiles" C:\Users\Romain\CLionProjects\Projet_space-invader\spaceinvader
 -- Conan: Adjusting output directories
 -- Conan: Using cmake global configuration
 -- Conan: Adjusting default RPATHs Conan policies
 -- Conan: Adjusting language standard
--- Current conanbuildinfo.cmake directory: C:/Users/Romain/CLionProjects/spaceinvader/cmake-build-release
+-- Current conanbuildinfo.cmake directory: C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/cmake-build-release
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Romain/CLionProjects/spaceinvader/cmake-build-release
+-- Build files have been written to: C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/cmake-build-release

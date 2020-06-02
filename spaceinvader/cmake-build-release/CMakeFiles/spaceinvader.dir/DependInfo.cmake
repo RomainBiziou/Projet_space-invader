@@ -4,9 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Romain/CLionProjects/spaceinvader/ennemis.cpp" "C:/Users/Romain/CLionProjects/spaceinvader/cmake-build-release/CMakeFiles/spaceinvader.dir/ennemis.cpp.obj"
-  "C:/Users/Romain/CLionProjects/spaceinvader/main.cpp" "C:/Users/Romain/CLionProjects/spaceinvader/cmake-build-release/CMakeFiles/spaceinvader.dir/main.cpp.obj"
-  "C:/Users/Romain/CLionProjects/spaceinvader/vaisseau_principal.cpp" "C:/Users/Romain/CLionProjects/spaceinvader/cmake-build-release/CMakeFiles/spaceinvader.dir/vaisseau_principal.cpp.obj"
+  "C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/ennemis.cpp" "C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/cmake-build-release/CMakeFiles/spaceinvader.dir/ennemis.cpp.obj"
+  "C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/ennemis_sniper.cpp" "C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/cmake-build-release/CMakeFiles/spaceinvader.dir/ennemis_sniper.cpp.obj"
+  "C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/main.cpp" "C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/cmake-build-release/CMakeFiles/spaceinvader.dir/main.cpp.obj"
+  "C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/obstacle.cpp" "C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/cmake-build-release/CMakeFiles/spaceinvader.dir/obstacle.cpp.obj"
+  "C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/vaisseau_principal.cpp" "C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/cmake-build-release/CMakeFiles/spaceinvader.dir/vaisseau_principal.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

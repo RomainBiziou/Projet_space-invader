@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-release\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Romain/CLionProjects/spaceinvader/cmake-build-release"/>
+				<Option working_dir="C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\spaceinvader\cmake-build-release\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\spaceinvader\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\spaceinvader\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\spaceinvader\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\Projet_space-invader\spaceinvader\cmake-build-release\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\Projet_space-invader\spaceinvader\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\Projet_space-invader\spaceinvader\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\Projet_space-invader\spaceinvader\cmake-build-release\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="spaceinvader">
-				<Option output="C:/Users/Romain/CLionProjects/spaceinvader/cmake-build-release/bin/spaceinvader.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Romain/CLionProjects/spaceinvader/cmake-build-release/bin"/>
+				<Option output="C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/cmake-build-release/bin/spaceinvader.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/cmake-build-release/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -39,15 +39,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\spaceinvader\cmake-build-release\Makefile VERBOSE=1 spaceinvader"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\spaceinvader\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\spaceinvader\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\spaceinvader\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\Projet_space-invader\spaceinvader\cmake-build-release\Makefile VERBOSE=1 spaceinvader"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\Projet_space-invader\spaceinvader\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\Projet_space-invader\spaceinvader\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\Projet_space-invader\spaceinvader\cmake-build-release\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="spaceinvader/fast">
-				<Option output="C:/Users/Romain/CLionProjects/spaceinvader/cmake-build-release/bin/spaceinvader.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Romain/CLionProjects/spaceinvader/cmake-build-release/bin"/>
+				<Option output="C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/cmake-build-release/bin/spaceinvader.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/cmake-build-release/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -67,52 +67,64 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\spaceinvader\cmake-build-release\Makefile VERBOSE=1 spaceinvader/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\spaceinvader\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\spaceinvader\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\spaceinvader\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\Projet_space-invader\spaceinvader\cmake-build-release\Makefile VERBOSE=1 spaceinvader/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\Projet_space-invader\spaceinvader\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\Projet_space-invader\spaceinvader\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\Projet_space-invader\spaceinvader\cmake-build-release\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Romain/CLionProjects/spaceinvader/cmake-build-release"/>
+				<Option working_dir="C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\spaceinvader\cmake-build-release\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\spaceinvader\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\spaceinvader\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\spaceinvader\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\Projet_space-invader\spaceinvader\cmake-build-release\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\Projet_space-invader\spaceinvader\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\Projet_space-invader\spaceinvader\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\Projet_space-invader\spaceinvader\cmake-build-release\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Romain/CLionProjects/spaceinvader/cmake-build-release"/>
+				<Option working_dir="C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\spaceinvader\cmake-build-release\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\spaceinvader\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\spaceinvader\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\spaceinvader\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\Projet_space-invader\spaceinvader\cmake-build-release\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\Projet_space-invader\spaceinvader\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\Projet_space-invader\spaceinvader\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Romain\CLionProjects\Projet_space-invader\spaceinvader\cmake-build-release\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Romain/CLionProjects/spaceinvader/ennemis.cpp">
+		<Unit filename="C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/ennemis.cpp">
 			<Option target="spaceinvader"/>
 		</Unit>
-		<Unit filename="C:/Users/Romain/CLionProjects/spaceinvader/ennemis.hpp">
+		<Unit filename="C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/ennemis.hpp">
 			<Option target="spaceinvader"/>
 		</Unit>
-		<Unit filename="C:/Users/Romain/CLionProjects/spaceinvader/main.cpp">
+		<Unit filename="C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/ennemis_sniper.cpp">
 			<Option target="spaceinvader"/>
 		</Unit>
-		<Unit filename="C:/Users/Romain/CLionProjects/spaceinvader/vaisseau_principal.cpp">
+		<Unit filename="C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/ennemis_sniper.hpp">
 			<Option target="spaceinvader"/>
 		</Unit>
-		<Unit filename="C:/Users/Romain/CLionProjects/spaceinvader/vaisseau_principal.hpp">
+		<Unit filename="C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/main.cpp">
 			<Option target="spaceinvader"/>
 		</Unit>
-		<Unit filename="C:/Users/Romain/CLionProjects/spaceinvader/CMakeLists.txt">
+		<Unit filename="C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/obstacle.cpp">
+			<Option target="spaceinvader"/>
+		</Unit>
+		<Unit filename="C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/obstacle.hpp">
+			<Option target="spaceinvader"/>
+		</Unit>
+		<Unit filename="C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/vaisseau_principal.cpp">
+			<Option target="spaceinvader"/>
+		</Unit>
+		<Unit filename="C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/vaisseau_principal.hpp">
+			<Option target="spaceinvader"/>
+		</Unit>
+		<Unit filename="C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/Romain/CLionProjects/spaceinvader/cmake-build-release/conanbuildinfo.cmake">
+		<Unit filename="C:/Users/Romain/CLionProjects/Projet_space-invader/spaceinvader/cmake-build-release/conanbuildinfo.cmake">
 			<Option virtualFolder="CMake Files\cmake-build-release\"/>
 		</Unit>
 	</Project>

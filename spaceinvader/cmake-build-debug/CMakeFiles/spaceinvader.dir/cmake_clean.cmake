@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/spaceinvader.dir/ennemis.cpp.obj"
+  "CMakeFiles/spaceinvader.dir/ennemis_sniper.cpp.obj"
   "CMakeFiles/spaceinvader.dir/main.cpp.obj"
+  "CMakeFiles/spaceinvader.dir/obstacle.cpp.obj"
   "CMakeFiles/spaceinvader.dir/vaisseau_principal.cpp.obj"
   "bin/spaceinvader.exe"
   "bin/spaceinvader.exe.manifest"
