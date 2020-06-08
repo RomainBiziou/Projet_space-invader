@@ -16,12 +16,12 @@ void Obstacle::recevoirdegats(int nbrdegats){
 }
 
 // Fonction Affichage de l'obstacle
-void Obstacle::affichage(sf::RenderWindow &window){
-    sf::RectangleShape rectangle(sf::Vector2f(50, 25));
-    rectangle.setPosition(sf::Vector2f(x,675));
-    rectangle.setFillColor(sf::Color::Yellow);
+void Obstacle::affichage(sf::RenderWindow &window, sf::Texture &texture){
+    sf::Sprite sprite_obstacle;
+    sprite_obstacle.setTexture(texture);
+    sprite_obstacle.setPosition(sf::Vector2f(x,675));
 
-    window.draw(rectangle);
+    window.draw(sprite_obstacle);
 }
 
 Obstacle::Obstacle(int _x): x(_x){

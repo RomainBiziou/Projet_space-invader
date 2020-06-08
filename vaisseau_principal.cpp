@@ -47,3 +47,28 @@ void Vaisseau_principal::deplacements(){
         x = 800 - 55;
     }
 }
+
+bool Vaisseau_principal::tirer(){
+    // Appuyer sur espace pour tirer
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Space)){
+        return true;
+    }
+    else
+        return false;
+}
+
+sf::Vector2i Vaisseau_principal::position(){
+    sf::Vector2i position;
+    position.x = x;
+    position.y = y;
+    return position;
+}
+
+bool Vaisseau_principal::vaisseau_tir(){
+    if(tir.getElapsedTime().asMilliseconds() >= 500){
+        tir.restart();
+        return true;
+    }
+    else
+        return false;
+}

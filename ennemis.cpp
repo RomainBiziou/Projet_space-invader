@@ -30,3 +30,19 @@ void Ennemis::affichage(sf::RenderWindow &window, sf::Texture &texture){
     sprite_ennemis.setPosition(sf::Vector2f(x,y));
     window.draw(sprite_ennemis);
 }
+
+bool Ennemis::ennemis_tir(){
+    if(tir.getElapsedTime().asMilliseconds() >= 1000){
+        tir.restart();
+        return true;
+    }
+    else
+        return false;
+}
+
+sf::Vector2i Ennemis::position(){
+    sf::Vector2i position;
+    position.x = x;
+    position.y = y;
+    return position;
+}

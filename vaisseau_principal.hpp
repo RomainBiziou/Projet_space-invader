@@ -9,6 +9,7 @@
 #include <string>
 #include <SFML/Graphics.hpp>
 
+
 using std::string;
 
 class Vaisseau_principal {
@@ -19,6 +20,7 @@ protected:
     int y = 730;
     int vaisseau_vie = 5;
     int vaisseau_degats = 1;
+    sf::Clock tir;
 
 public:
     Vaisseau_principal();
@@ -26,6 +28,9 @@ public:
     void recevoirdegats(int nbrdegats);
     void attaquer(Vaisseau_principal &ennemis);
     void deplacements();
+    bool tirer();
+    sf::Vector2i position();
+    bool vaisseau_tir();
 
 };
 

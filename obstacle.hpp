@@ -22,7 +22,7 @@ public:
     Obstacle() = delete;
     explicit Obstacle(int _x);
 
-    void affichage(sf::RenderWindow &window);
+    void affichage(sf::RenderWindow &window, sf::Texture &texture);
     void recevoirdegats (int nbrdegats);
 
 };

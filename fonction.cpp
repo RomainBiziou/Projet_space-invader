@@ -22,9 +22,13 @@ void tbl_ennemis(std::vector<Ennemis> &ennemis){
     }
 }
 
-void ennemis_affichage(sf::RenderWindow &window, std::vector<Ennemis> &ennemis, sf::Texture &texture){
+void ennemis_affichage(sf::RenderWindow &window, std::vector<Ennemis> &ennemis, sf::Texture &texture, std::vector<Tir> &tir){
     // Parcours tout les elements du tableau ennemis
     for(auto &ennemi:ennemis){
+        if(ennemi.ennemis_tir()){
+            sf::Vector2i position = ennemi.position();
+            tir.emplace_back(position.x + 10, position.y + 32,0);
+        }
         ennemi.affichage(window, texture);
     }
 }
@@ -40,9 +44,20 @@ void tbl_ennemis_sniper(std::vector<Ennemis_sniper> &ennemis_sniper){
     }
 }
 
-void ennemis_sniper_affichage(sf::RenderWindow &window, std::vector<Ennemis_sniper> &ennemis_sniper, sf::Texture &texture){
+void ennemis_sniper_affichage(sf::RenderWindow &window, std::vector<Ennemis_sniper> &ennemis_sniper, sf::Texture &texture, std::vector<Tir> &tir){
     // Parcours tout les elements du tableau ennemis_sniper
     for(auto &ennemi:ennemis_sniper){
+        if(ennemi.ennemis_tir()){
+            sf::Vector2i position = ennemi.position();
+            tir.emplace_back(position.x + 12, position.y + 32,0);
+        }
         ennemi.affichage(window, texture);
+    }
+}
+
+void tir_affichage(sf::RenderWindow &window, sf::Texture &texture, std::vector<Tir> &tirs, int vitesse){
+    for(auto &tir:tirs){
+        tir.affichage(window, texture);
+        tir.deplacement_tir(vitesse);
     }
 }
